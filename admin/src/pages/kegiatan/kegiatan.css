@@ -1,0 +1,107 @@
+.kegiatan {
+    display: flex;
+    width: 100%;
+}
+
+.kegiatanContainer {
+        flex: 6;
+}
+
+.kegiatanMain {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kegiatanHeader {
+    padding-bottom: 20px;
+}
+
+.kegiatanTitle {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.kegiatanData {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tambahBtnKegiatan {
+    padding: 10px;
+    background-color: rgb(52, 118, 241);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.kegiatanSearch {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#kegiatanInputSearch {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    outline: none;
+}
+
+.kegiatanDataList {
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.kegiatanBtnAdd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kegiatanTable {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 2px solid rgb(160, 158, 158);
+}
+
+th {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    background-color: whitesmoke;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+
+
+.btnUbahKegiatan {
+    padding: 5px;
+    background-color: rgb(255, 213, 24);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.btnHapusKegiatan {
+    padding: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+}

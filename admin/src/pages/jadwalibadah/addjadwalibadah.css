@@ -1,0 +1,84 @@
+.mainContainer {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titleAddJadwal {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mainForm {
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.noJadwalForm {
+    margin-bottom: 15px;
+}
+
+#inputNoJadwal {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.waktuJadwalForm {
+    margin-bottom: 15px;
+}
+
+#inputWaktuJadwal {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.tempatJadwalForm {
+    margin-bottom: 15px;
+}
+
+#inputTempatJadwal {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.keteranganJadwalForm {
+    margin-bottom: 15px;
+}
+
+#inputKeteranganJadwal {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.btnAll {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnSubmitJadwal {
+    background-color: rgb(52, 118, 241);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnKembaliJadwal {
+    background-color: rgb(76, 76, 77);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

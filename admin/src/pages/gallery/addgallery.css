@@ -1,0 +1,64 @@
+.mainContainer {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titleAddGallery {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mainForm {
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.judulGalleryForm {
+    margin-bottom: 15px;
+}
+
+#inputJudulGallery {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.gambarGalleryForm {
+    margin-bottom: 15px;
+}
+
+#inputGambarGallery {
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.figurePreview {
+    width: 40%;
+}
+
+.btnAll {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnSubmitGallery {
+    background-color: rgb(52, 118, 241);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnKembaliGallery {
+    background-color: rgb(76, 76, 77);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

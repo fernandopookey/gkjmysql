@@ -1,0 +1,118 @@
+.renungan {
+    display: flex;
+    width: 100%;
+}
+
+.renunganContainer {
+    flex: 6;
+}
+
+.renunganMain {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.renunganHeader {
+    padding-bottom: 20px;
+}
+
+.renunganTitle {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.renunganData {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.renunganBtnAdd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tambahBtnRenungan {
+    padding: 10px;
+    background-color: rgb(52, 118, 241);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.renunganSearch {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#renunganInputSearch {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    outline: none;
+}
+
+.renunganDataList {
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#renunganTable {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 2px solid rgb(160, 158, 158);
+}
+
+th {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    background-color: whitesmoke;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+
+
+.btnUbahRenungan {
+    padding: 5px;
+    background-color: rgb(255, 213, 24);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.btnHapusRenungan {
+    padding: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.pagination {
+    font-size: 15px;
+    color: blue;
+    /* float: left; */
+    background-color: aqua;
+}
+
+/* .pagination-list {
+    background-color: black;
+} */

@@ -1,0 +1,217 @@
+.home {
+    display: flex;
+}
+
+.homeContainer {
+    flex: 6;
+}
+
+.mainHome{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    padding-bottom: 10px;
+}
+
+.titleDashboard{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.nama{
+    font-weight: 700;
+}
+
+.line{
+    margin-bottom: 20px;
+}
+
+.content{
+    padding-left: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    padding: 20px;
+    width: auto;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(130, 163, 163);
+    box-shadow: 10px 10px 5px rgb(193, 201, 204);
+}
+
+.jadwalHome{
+    background-image: linear-gradient(to bottom right, rgb(247, 103, 103), rgb(167, 17, 17));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.buttonJadwalHome {
+    background-image: linear-gradient(to left, rgb(247, 103, 103), rgb(167, 17, 17));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+}
+
+.subTitleJadwalHome {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.sliderHome {
+    background-image: linear-gradient(to bottom right, rgb(233, 247, 103), rgb(137, 151, 8));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.buttonSliderHome {
+    background-image: linear-gradient(to left, rgb(176, 187, 79), rgb(95, 104, 11));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+.subTitleSliderHome {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.wartaHome {
+    background-image: linear-gradient(to bottom right, rgb(147, 197, 245), rgb(2, 128, 245));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.buttonWartaHome {
+    background-image: linear-gradient(to left, rgb(147, 197, 245), rgb(2, 128, 245));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+}
+
+.subTitleWartaHome {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.artikelHome {
+    background-image: linear-gradient(to bottom right, rgb(211, 79, 140), rgb(139, 69, 136));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.buttonArtikelHome {
+    background-image: linear-gradient(to left, rgb(247, 103, 103), rgb(167, 17, 17));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+}
+
+.subTitleArtikelHome {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.kegiatanHome {
+    background-image: linear-gradient(to bottom right, rgb(75, 233, 83), rgb(14, 102, 18));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.buttonKegiatanHome {
+    background-image: linear-gradient(to left, rgb(75, 233, 83), rgb(14, 102, 18));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+}
+
+.subTitleKegiatanHome {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.renunganHome {
+    background-image: linear-gradient(to bottom right, rgb(97, 253, 162), rgb(13, 197, 90));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.buttonRenunganHome {
+    background-image: linear-gradient(to left, rgb(97, 253, 162), rgb(13, 197, 90));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+}
+
+.subTitleRenunganHome {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.galleryHome {
+    background-image: linear-gradient(to bottom right, rgb(219, 119, 233), rgb(150, 0, 170));
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.buttonGalleryHome {
+    background-image: linear-gradient(to left, rgb(219, 119, 233), rgb(150, 0, 170));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+}
+
+.subTitleGalleryHome {
+    font-size: 23px;
+    font-weight: 400;
+}

@@ -1,0 +1,73 @@
+.mainContainer {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titleAddProfile {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mainForm {
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.judulProfileForm {
+    margin-bottom: 15px;
+}
+
+#inputJudulProfile {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.subjudulProfileForm {
+    margin-bottom: 15px;
+}
+
+#inputSubjudulProfile {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.keteranganProfileForm {
+    margin-bottom: 15px;
+}
+
+#inputKeteranganProfile {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.btnAll {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnSubmitProfile {
+    background-color: rgb(52, 118, 241);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnKembaliProfile {
+    background-color: rgb(76, 76, 77);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
